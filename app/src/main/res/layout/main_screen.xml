@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="286dp"
+        android:layout_height="231dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        android:src="@mipmap/logo" />
+
+    <Button
+        android:id="@+id/simpleButton"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="150dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/KolayEkran" />
+
+    <Button
+        android:id="@+id/mediumButton"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/simpleButton"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/OrtaEkran" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-37dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="@string/YardimEkran" />
+
+</RelativeLayout>

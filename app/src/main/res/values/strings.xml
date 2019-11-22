@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Resfebe-English</string>
+    <string name="kontrol_yazi">Check It!</string>
+    <string name="cevabi_yaz">Write Answer</string>
+    <string name="pas_gec">Pass</string>
+    <string name="KolayEkran">Simple</string>
+    <string name="OrtaEkran">Medium</string>
+    <string name="ZorEkran">Hard</string>
+    <string name="YardimEkran">Help</string>
+</resources>
